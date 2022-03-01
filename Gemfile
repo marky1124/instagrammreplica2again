@@ -6,7 +6,6 @@ ruby "2.6.9"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.0'
 gem 'listen'
-gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
@@ -56,10 +55,10 @@ group :development do
   gem 'spring'
 end
 
-#group :development, :test do
-#  # Use sqlite3 as the database for Active Record
-#  gem 'sqlite3', '< 1.4'
-#end
+group :development, :test do
+  # Use sqlite3 as the database for Active Record
+  gem 'sqlite3'
+end
 
 group :production do
   gem 'pg'
