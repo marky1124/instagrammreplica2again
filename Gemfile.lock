@@ -270,7 +270,7 @@ DEPENDENCIES
   listen
   masonry-rails
   pg
-  rails (~> 7.0.0)
+  rails (~> 7.0.4)
   rails_12factor
   sass-rails
   sdoc
