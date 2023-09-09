@@ -281,7 +281,7 @@ DEPENDENCIES
   sqlite3
   turbolinks
   uglifier
-  web-console
+  web-console (>= 4.2.1)
   webrick
 
 RUBY VERSION
