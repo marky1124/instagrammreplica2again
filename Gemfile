@@ -4,7 +4,7 @@ ruby "3.1.3"
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 7.1.0'
+gem 'rails', '~> 7.1.3', '>= 7.1.3.3'
 gem 'listen'
 gem 'webrick'
 # Use SCSS for stylesheets
@@ -21,15 +21,15 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder'
+gem 'jbuilder', '>= 2.12.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', group: :doc
 
 # instagramm gems
 gem 'haml'
-gem 'simple_form'
+gem 'simple_form', '>= 5.3.1'
 gem 'bootstrap-sass'
-gem 'devise'
+gem 'devise', '>= 4.9.4'
 gem 'kt-paperclip'
 gem 'masonry-rails'
 gem 'acts_as_votable'
