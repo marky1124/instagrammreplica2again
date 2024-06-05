@@ -4,7 +4,7 @@ ruby "3.1.3"
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 7.1.0'
+gem 'rails', '~> 7.1.3', '>= 7.1.3.4'
 gem 'listen'
 gem 'webrick'
 # Use SCSS for stylesheets
@@ -27,9 +27,9 @@ gem 'sdoc', group: :doc
 
 # instagramm gems
 gem 'haml'
-gem 'simple_form'
+gem 'simple_form', '>= 5.3.1'
 gem 'bootstrap-sass'
-gem 'devise'
+gem 'devise', '>= 4.9.4'
 gem 'kt-paperclip'
 gem 'masonry-rails'
 gem 'acts_as_votable'
