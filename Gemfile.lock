@@ -291,7 +291,7 @@ DEPENDENCIES
   coffee-rails
   devise (>= 4.9.4)
   haml
-  jbuilder
+  jbuilder (>= 2.12.0)
   jquery-rails
   kt-paperclip
   listen
@@ -306,7 +306,7 @@ DEPENDENCIES
   sqlite3
   turbolinks
   uglifier
-  web-console
+  web-console (>= 4.2.1)
   webrick
 
 RUBY VERSION
