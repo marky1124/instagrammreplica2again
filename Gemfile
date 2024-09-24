@@ -6,7 +6,7 @@ ruby "3.1.3"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 7.1.3', '>= 7.1.3.4'
 gem 'listen'
-gem 'webrick'
+gem 'webrick', '>= 1.8.2'
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
