@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-ruby "3.3.5"
+ruby '3.3.6'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 7.1.3', '>= 7.1.3.4'
+gem 'rails', '~> 7.2.0'
 gem 'listen'
 gem 'webrick'
 # Use SCSS for stylesheets
